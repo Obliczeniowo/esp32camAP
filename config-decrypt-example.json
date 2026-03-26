@@ -1,0 +1,16 @@
+[
+    {
+        "mode": "decrypt",
+        "path": "../",
+        "output": "../",
+        "password": "PASSWORD",
+        "override": true,
+        "exclude": [
+            ".gitignore",
+            "scripts",
+            ".git",
+            "node_modules",
+            "package.json"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "mode": "encrypt",
+        "path": "../",
+        "output": "../",
+        "password": "PASSWORD",
+        "override": true,
+        "exclude": [
+            ".gitignore",
+            "scripts",
+            ".git",
+            "node_modules",
+            "config-decrypt.json",
+            "config.json",
+            "cred.h",
+            "js",
+            "batch-encdec.js",
+            "package.json",
+            "config-example.json",
+            "config-decrypt-example.json"
+        ]
+    }
+]

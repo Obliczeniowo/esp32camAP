@@ -1,0 +1,24 @@
+{
+  "name": "access-point-temperature",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Obliczeniowo/esp32-temperature-sensors#readme",
+  "bugs": {
+    "url": "https://github.com/Obliczeniowo/esp32-temperature-sensors/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obliczeniowo/esp32-temperature-sensors.git"
+  },
+  "license": "ISC",
+  "author": "Krzysztof Zajączkowski",
+  "type": "module",
+  "main": "batch-encdec.js",
+  "scripts": {
+    "encrypt": "node batch-encdec",
+    "decrypt": "node batch-encdec.js ./config-decrypt.json"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.3"
+  }
+}
